@@ -28,11 +28,25 @@ p {
     line-height: 1.75;
 }
 
+/* Sections  */
+
+.dark-section { 
+    color: #f1f1e8;
+    background-color: #206a5d;
+}
+
+.light-section { 
+    background-color: #bfdcae;
+
+}
+
+.white-section { 
+    background-color: #f9fcfb;
+}
+
 /* Title Section */
 
 #title { 
-    color: #f1f1e8;
-    background-color: #206a5d;
     padding-bottom: 150px;
     text-align: left;
 }
@@ -72,7 +86,6 @@ p {
 /* Features Section */
 
 #features { 
-    background-color: #f9fcfb;
     padding: 5% 12%;
     position: relative;
     z-index: 1;
@@ -92,10 +105,6 @@ p {
     color:#ec7373;
 }
 
-#testimonials { 
-    background-color: #bfdcae;
-}
-
 .testimonial-img{ 
     border-radius: 100%;
     margin: 20px;
@@ -109,7 +118,6 @@ p {
 /* Press Section */
 
 #press { 
-    background-color: #bfdcae;
     padding: 3%;
 }
 
@@ -121,7 +129,6 @@ p {
 /* Pricing Section */
 
 #pricing { 
-    background-color: #f9fcfb;
     padding: 75px;
 }
 
@@ -132,12 +139,10 @@ p {
 /* Call To Action Section */
 
 #cta { 
-    background-color: #206a5d;
     padding: 7% 10% 0;
 }
 
 .cta-heading { 
-    color: #f1f1e8;
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 1.5;
@@ -146,18 +151,12 @@ p {
 /* Footer Section */
 
 #footer { 
-    background-color: #206a5d;
     padding: 2% 0;
 }
 
 .social-icon { 
-    color: #f1f1e8;
     margin: 20px 10px;
     cursor: pointer;
-}
-
-.footer-icon:hover {
-    color: #8db596;
 }
 
 .footer-text { 
